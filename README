@@ -1,4 +1,2 @@
-This is the heart of a project I ultimately intend to release for Android.
-
 MITM-forking.py acts as an HTTP proxy with the ability to inject arbitrary user-selected data. It forks a
 configurable number of child processes off to handle many request/responses simultaneously.
