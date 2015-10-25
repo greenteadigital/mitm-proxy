@@ -1,2 +1,4 @@
-MITM-forking.py acts as an HTTP proxy with the ability to inject arbitrary user-selected data. It forks a
-configurable number of child processes off to handle many request/responses simultaneously.
+MITM-forking.py acts as an HTTP proxy sitting b/w the browser and the web with the ability to
+inject/remove arbitrary user-selected data. It forks a configurable number of child processes
+to handle many requests/responses simultaneously. Pipelines b/w browser process and the web
+are managed with iptables (linux).
